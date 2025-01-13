@@ -17,7 +17,7 @@
 
     export default myComponent;
 
-    While when imported in another file it should start with capital letter:
+    But when imported in another file it should start with capital letter:
 
     import MyComponent from "./myComponent";
 

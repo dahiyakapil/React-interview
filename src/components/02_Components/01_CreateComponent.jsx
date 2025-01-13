@@ -1,5 +1,9 @@
 /*
+    
+
     How to create components in React?
+
+
 
 */
 
@@ -12,3 +16,4 @@ const CreateComponent = ({name}) => {
 }
 
 export default CreateComponent
+

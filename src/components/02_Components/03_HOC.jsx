@@ -1,3 +1,9 @@
+/*
+  A Higher-Order Component (HOC) is a design pattern in React where a function takes a component as input and returns a new component with additional functionality.
+  
+*/
+
+
 import { useState } from "react";
 
 export const HOCred = (props) => {

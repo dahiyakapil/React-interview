@@ -24,3 +24,27 @@ const Pure_Components_useMemo = () => {
 };
 
 export default Pure_Components_useMemo;
+
+
+// const Pure_Components_useMemo = () => {
+//   const[count, setCount] = useState(0);
+//   const [item, setItem] = useState(0);
+
+//   const mul = useMemo(function multiplyBy5() {
+//     console.log("Re Render----------");
+//     return count * 5;
+//   }, [count])
+//   return (
+//     <div>
+//       <h2> Pure Components Using useMemo Hook for website performance enhancement </h2>
+//       <h2>Count: {count}</h2>
+//       <h2>Item: {item}</h2>
+//       <h2>Multiply Count By 5: {mul}</h2>
+
+//       <button onClick={() => setCount(count + 1)}>Update Count</button>
+//       <button onClick={() => setItem(item + 1)}>Update Item</button>
+//     </div>
+//   )
+// }
+
+// export default Pure_Components_useMemo;

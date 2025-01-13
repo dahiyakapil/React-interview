@@ -3,6 +3,7 @@ import CreateComponent from "./components/02_Components/01_CreateComponent";
 import ComponentName from "./components/02_Components/02_ComponentName";
 import Counter, { HOCblue, HOCred, HOCyellow } from "./components/02_Components/03_HOC";
 import Pure_Components_useMemo from "./components/02_Components/04_Pure_Components_useMemo";
+import Syntax from "./components/01_JSX/01_Syntax";
 
 
 function App() {
@@ -11,8 +12,9 @@ function App() {
     <>
       
       {/* JSX */}
-      {/* <Syntax />
-      <MultipleJSX /> */}
+      {/* <Syntax /> */}
+      {/* <MultipleJSX /> */}
+      
       {/* <InjectionAttack /> */}
       {/* <PrintFalsyValues /> */}
       
@@ -21,9 +23,9 @@ function App() {
       {/* <CreateComponent name={name}/>
       <ComponentName /> */}
 
-      {/* <HOCred cmp = {Counter} />
+      <HOCred cmp = {Counter} />
       <HOCblue cmp = {Counter} />
-      <HOCyellow cmp = {Counter} /> */}
+      <HOCyellow cmp = {Counter} />
 
       
       <Pure_Components_useMemo />
